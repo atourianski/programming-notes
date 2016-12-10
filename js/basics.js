@@ -1,4 +1,4 @@
-//Class
+//Class/Constructor
 
 	//a template definition of an object's properties and methods. An Object blueprint.
 	//Basically a function that is used to contruct an Object
@@ -49,5 +49,5 @@ user.speak();				//the method is called
 
 //Prototype
 
-//a prototye is essentially the same thing as a class 
+//a prototype is a pointer to an Object's origins 
 
