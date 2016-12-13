@@ -13,7 +13,7 @@ function makeRequest(url){
 	}
 
 	httpRequest.onreadystatechange = alertContents;	//alertContents will be invoked once a response is recieved
-	httpRequest.open('GET', url); // 1st param is the request method ('GET'), 2nd param is the url of the file I am getting data from 
+	httpRequest.open('GET', url, true); // 1st param is the request method ('GET'), 2nd param is the url of the file I am getting data from, 3rd param states whether the request will be synchronous or asychronous, true for asych and false for sych (asych is almost always better)
 	httpRequest.send()
 }
 
