@@ -51,3 +51,14 @@ user.speak();				//the method is called
 
 //a prototype is a pointer to an Object's origins 
 
+//Variables
+
+var x = 1 //var is the standard variable
+
+let y = 1 //let is a new variable declaration introduced in ES6
+
+//it uses block scoping, making it superior to var. Only works in new browsers
+
+const q = 1 //stands for "constant", also a new variable declaration introduced in ES6
+
+//this variable cannot be redefined 
